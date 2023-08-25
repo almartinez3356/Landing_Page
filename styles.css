@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    /* it always stays in the same place even if the page is scrolled */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* % - specifies a padding in % of the width of the containing element */
+    padding: 20px 10%;
+    background: rgba(112, 41, 99);
+    display: flex;
+    /* % the .header container has two flex items: the .logo (name) element and the .navbar (links) element. The .logo element is the first flex item, so it is placed on the left side of the container. The .navbar element is the second flex item, so it is placed on the right side of the container. */
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
