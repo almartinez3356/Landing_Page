@@ -25,3 +25,18 @@
     text-decoration: none;
     font-weight: 700;
 }
+/* % remember that "a" is just the links! */
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    /* % - margin left prevents the links from being squished together side by side */
+    margin-left: 35px;
+     /* How fast the animation will be for showing link color*/
+    transition: .5;
+}
+
+.navbar a:hover {
+    color: darkblue;
+}
