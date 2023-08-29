@@ -54,6 +54,7 @@
     width: 500px;
     height: 500px;
     background: #A13E97;
+    border-radius: 50;
 }
 
 .home-content {
@@ -92,4 +93,29 @@
     text-decoration: none;
     justify-content: center;
     align-items: center;
+    /* Now give the icons space between */
+    margin-left: 12px;
+}
+
+/* Space the content above and below the social media icons  */
+.social-media {
+    margin: 25px 0 40px;
+}
+
+.btn {
+    padding: 12px 35px;
+    background: #A13E97;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* Offset x and y 0 and 0 indicates that the shadow will be places behind element */
+    box-shadow: 0 0 10px #A13E97;
+    transition: .5s;
+}
+
+.btn:hover {
+    box-shadow: none;
 }
