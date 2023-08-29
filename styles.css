@@ -78,3 +78,18 @@
     font-size: 16px;
     margin-top: 20px;
 }
+
+.social-media a {
+    /* display:inline-block does not add a line-break after the element. So, the element can sit next to other elements. */
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: #00abf0;
+    /* Now center it! */
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
