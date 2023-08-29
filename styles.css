@@ -21,7 +21,7 @@
 }
 .logo {
     font-size: 25px;
-    color: black;
+    color: #280e3b;
     text-decoration: none;
     font-weight: 700;
 }
@@ -38,24 +38,43 @@
 }
 
 .navbar a:hover {
-    color: darkblue;
+    color: #280e3b;
 }
 .home {
     height: 100vh;
-    background: linear-gradient(-90deg, #031540 65%, #ffff 35%);
+    /* Purple for first 65%, then white */
+    background: linear-gradient(-90deg, #D3B7D8 65%, #ffff 35%);
     display: flex;
     align-items: center;
-     /* % -space between left and right items.. */
+    /* % - setting the left and right padding of the element to be 10% of the element's width, while the top and bottom padding are set to 0. Helps make sure text isn't squised all to one side */
     justify-content: space-between;
+    padding: 0 10%;
 }
 .home-image {
     width: 500px;
     height: 500px;
-    background: seagreen;
+    background: #A13E97;
 }
 
 .home-content {
     max-width: 600px;
-    color: #fff;
+    color: #280E3B;
     text-align: right;
+}
+
+.home-content h1 {
+    font-size: 45px;
+    line-height: 1.5;
+    color: #280E3B
+}
+.home-content h2 {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #280E3B;
+    -webkit-text-stroke: .5px #fff;
+}
+
+.home-content p  {
+    font-size: 16px;
+    margin-top: 20px;
 }
