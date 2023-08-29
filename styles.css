@@ -53,8 +53,13 @@
 .home-image {
     width: 500px;
     height: 500px;
-    background: #A13E97;
-    border-radius: 50;
+    background: #D3B7D8;
+    border-radius: 50%;
+    border: 25px solid #fff;
+    /* Adjust positioning of the elements inside home image div (our pic) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-content {
@@ -118,4 +123,10 @@
 
 .btn:hover {
     box-shadow: none;
+}
+
+.home-image img {
+    position: relative;
+    max-width: 380px;
+    border-radius: 50%;
 }
