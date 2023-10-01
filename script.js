@@ -1,8 +1,10 @@
+
 document.addEventListener("DOMContentLoaded", function() {
     // Reference ID's
-    const instaLink = document.getElementById("instagram-link");
+    const instaLink = document.getElementById("instagram-link")
     const linkedInLink = document.getElementById("linkedin-link")
     const githubLink = document.getElementById("github-link")
+    const button = document.getElementById("buttonCV")
 
     // Reference actual links
     const instagramURL = "https://www.instagram.com/alexlianthone";
