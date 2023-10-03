@@ -30,10 +30,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Prevent the default behavior of the anchor link
         event.preventDefault();
         
-        // Replace 'resume.pdf' with the actual path to your resume file
         var resumeUrl = 'RESUME_OCT.pdf';
 
-        // Trigger the download by changing the window location
-        window.location.href = resumeUrl;
+        // Open the resume in a new browser window or tab
+        window.open(resumeUrl, '_blank');
     }
 });
