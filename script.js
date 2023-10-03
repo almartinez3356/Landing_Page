@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Prevent the default behavior of the anchor link
         event.preventDefault();
         
-        var resumeUrl = 'RESUME_OCT.pdf';
+        var resumeUrl = 'RESUME_OCTMOD.pdf';
 
         // Open the resume in a new browser window or tab
         window.open(resumeUrl, '_blank');
