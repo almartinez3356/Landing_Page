@@ -21,4 +21,19 @@ document.addEventListener("DOMContentLoaded", function() {
     githubLink.addEventListener("click", () => {
         window.location.href = githubURL;
     });
+    // Add a click event listener to the link
+    var downloadLink = document.getElementById('buttonCV');
+    downloadLink.addEventListener('click', downloadResume);
+
+    // Function to handle the download
+    function downloadResume(event) {
+        // Prevent the default behavior of the anchor link
+        event.preventDefault();
+        
+        // Replace 'resume.pdf' with the actual path to your resume file
+        var resumeUrl = 'RESUME_OCT.pdf';
+
+        // Trigger the download by changing the window location
+        window.location.href = resumeUrl;
+    }
 });
